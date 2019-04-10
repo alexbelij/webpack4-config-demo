@@ -62,7 +62,7 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets:['env'] //[重要]顺序右到左，先处理高级或特殊语法
+            presets:['env','stage-2'] //[重要]顺序右到左，先处理高级或特殊语法
           }
         }
       }
